@@ -18,4 +18,16 @@ total = total % i
 c = eval(input("enter any number --> "))
 total = total // c
 
+l = eval(input("enter any number --> "))
+total = total + l
+
+o = eval(input("enter any number --> "))
+total = total + o
+
+u = eval(input("enter any number --> "))
+total = total + u
+
+r = eval(input("enter any number --> "))
+total = total + r
+
 print("Current Total is --> ", total)
