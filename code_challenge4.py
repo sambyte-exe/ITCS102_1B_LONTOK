@@ -90,5 +90,7 @@ if age >= 21 and is_employed == True:
 else:
        print("Application Requirements Not Met.")
 
-    
+print("\n----------------------------------------------")
+print("           THANK YOU! ENJOY YOUR LOAN.")
+print("----------------------------------------------")
 
