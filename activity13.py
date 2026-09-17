@@ -26,14 +26,14 @@ if age >= 21 and is_employed == True:
             print("Your Interest Rate is", base_rate)
 
 #tier2
-       elif credit_score >= 600 and credit_score <= 749:
-          if has_collateral == True:
+       elif credit_score >= 600 and credit_score < 750:
+            if has_collateral == True:
               base_rate = 7.0
               print("Your Interest Rate is", base_rate)
-          elif annual_income < 400000:
+            elif annual_income < 400000:
               base_rate = 9.5
               print("Your Interest Rate is", base_rate)
-          else:
+            else:
               base_rate = 8.0
               print("Your Interest Rate is", base_rate)
 
@@ -42,7 +42,7 @@ if age >= 21 and is_employed == True:
           print("Rejected: Credit Score Too Low!")
 
 else:
-       print("Baseline Requirement Failed
+       print("Baseline Requirement Failed")
 
     
 
