@@ -40,6 +40,16 @@ if age >= 21 and years_worked >= 2 and has_defaults == False:
         else:
             base_fee = max_loan * 0.035
             print("Base fee rate is ",base_fee)
+
+        if c_value >= max_loan:
+            print("Collateral", collateral, "--Accepted!")
+        else:
+            print("Collateral Not Accepeted!")
+
+        surcharge = max_loan * base_fee
+        if c_value % 500 != 0:
+            surcharge += 250
+
     elif cc < 620:
         print("Credir Score Too Low To Apply for Loan!")
     else:
