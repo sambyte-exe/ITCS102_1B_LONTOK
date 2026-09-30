@@ -2,8 +2,8 @@ age = int(input("Please enter your age: "))
 rev = float(input("Please enter your revenue: "))
 cc = int(input("Please enter your credit card number:"))
 years_worked = int(input("Please enter the number of years you have worked:"))
-has_defaults = input("Please enter your dafault history: ")
-collateral = input("Please enter the name of the collateral: ")
+has_defaults = bool(input("Please enter your dafault history: "))
+collateral = str(input("Please enter the name of the collateral: "))
 c_value = float(input("Please enter the value of the collateral: "))
 
 max_limit = 0
