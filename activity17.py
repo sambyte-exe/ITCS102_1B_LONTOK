@@ -6,17 +6,17 @@ roses = ["Sunflower", "Snowdrop", "Salvia", "Sage", "Carnation"]
 print(roses)
 
 #list fuction
-fruits.append("Sunflower")
-fruits.append("Snowdrop")
-fruits.append("Salvia")
-fruits.append("Sage")
-fruits.append("Carnation")
+roses.append("Sunflower")
+roses.append("Snowdrop")
+roses.append("Salvia")
+roses.append("Sage")
+roses.append("Carnation")
 print(roses)
 print(roses[2])
 print(roses[3])
 print(roses[0])
 print(roses[-1])
-fruits.insert(1, "Sunflower")
+roses.insert(1, "Sunflower")
 print(roses)
 
 #list slicing
