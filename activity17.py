@@ -22,6 +22,7 @@ print(roses)
 #list slicing
 print(roses[0:4])
 print(roses[-1: -5])
+print(roses[: -2])
 
 
 
