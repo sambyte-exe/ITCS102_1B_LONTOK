@@ -1,4 +1,15 @@
-#JEEPNEY SIMULATOR (INTERACTIVE)
+#PART 1. EVERY LIST METHOD IS A JEEPNEY MOMENT
+
+passengers = ["Ana", "Ben", "Carla"]
+passengers.append("Dan")
+passengers.insert(0, "Lola")
+passengers.remove("Ben")
+x = passengers.pop()
+y = passengers.pop(0)
+len(passengers)
+passengers.reverse()
+
+#PART 2. THE INTERACTIVE JEEPNEY
 
 route = ["Terminal", "Perez Park", "Pacific Mall"]
 passengers = []
@@ -6,7 +17,7 @@ SEATS = 6
 FARE = 13
 total = 0
 
-While True:
+while True:
   print()
   print("Sakay:", passengers)
   print(len(passengers), "of", SEATS, "seats")
