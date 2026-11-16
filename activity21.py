@@ -61,7 +61,7 @@ while True:
     if len(passengers) == 0:
       print("The Jeep is Empty!")
     else:
-      left = passengers,pop(0)
+      left = passengers.pop(0)
       print(left, "got off at the door")
 
   elif choice == "5":
