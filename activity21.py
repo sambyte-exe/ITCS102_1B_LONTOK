@@ -21,9 +21,14 @@ while True:
   print()
   print("Sakay:", passengers)
   print(len(passengers), "of", SEATS, "seats")
-  print("1 Sakay, 2 Priority seat, 3 Para po!")
-  print("4 Baba sa pinto, 5 Baba sa harap")
-  print("6 Seat check, 7 Balikan. 8 Exit")
+  print("1 Sakay")
+  print("2 Priority Seat")
+  print("3 Para po!")
+  print("4 Baba sa pinto")
+  print("5 Baba sa harap")
+  print("6 Seat check")
+  print("7 Balikan")
+  print("8 Exit")
   choice = input("Choice: ")
 
   if choice == "1":
@@ -75,7 +80,7 @@ while True:
     print("Route: ", route)
 
   elif choice == "8":
-    print("Total Fare Today: " total)
+    print("Total Fare Today: ", total)
     break
 
   else:
