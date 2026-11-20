@@ -39,3 +39,14 @@ Zhao_Kongcheng = ['A brave and experienced fighter who possesses powerful physic
 Hong_Ying = ['A cheerful and energetic young girl who possesses the divine power of the Red Moon and fights with a spear.']
 Chen_Muye = ['A calm and experienced leader who possesses the power of Yanluo Wang and commands the abilities of the underworld.']
 Leng_Xuan = ['A quiet and skilled Night Watcher known for his strong combat abilities and dedication to protecting humanity.']
+
+    # THE DIVINE AGENTS
+Si Xiaonan (Si Xionan) – A clever and mysterious fighter who possesses Loki's powers of deception and illusion.
+Shen Nu – A mysterious divine agent whose abilities and background are connected to divine powers.
+Yiyu – A divine agent with unique supernatural abilities and a mysterious identity.
+Liu Lang – A skilled and mysterious individual known for his unusual abilities and hidden identity.
+Shao Pingge – A powerful fighter associated with Yanluo Wang who possesses abilities connected to the underworld.
+Lu Baoyu – A divine agent of Lucifer who possesses powers related to corruption and darkness.
+Xia Simeng – A wise and talented divine agent of Athena who possesses abilities related to wisdom and combat.
+Li Zhenzhen – A divine agent of Cupid who possesses powers related to love and emotional manipulation.
+Chen Han – A powerful divine agent associated with the Fengdu Emperor who possesses underworld-related abilities.
