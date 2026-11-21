@@ -69,11 +69,43 @@ Xia_Simeng = ["A wise and talented divine agent of Athena who possesses abilitie
 Li_Zhenzhen = ["A divine agent of Cupid who possesses powers related to love and emotional manipulation."]
 Chen_Han = ["A powerful divine agent associated with the Fengdu Emperor who possesses underworld-related abilities."]
 
-# SHOW THE CHARACTER LISTS 
-print("SLAY THE GODS: CHARACTERS")
-print()
-print("NIGHT FALL SQUAD:", night_fall)
-print("HEAVENLY GODS:", heavenly_gods)
-print("MASKED SQUAD:", masked_squad)
-print("NIGHT WATCHERS:", night_watchers)
-print("DIVINE AGENTS:", divine_agents)
+# DICTIONARY OF CHARACTERS DESCRIPTIONS
+night_fall = {"Lin Qiye": Lin_Qiye, "An Qingyu": An_Qingyu, "Shen Qingzhu": Shen_Qingzhu, "Baili Pangpang": Baili_Pangpang, "Cao Yuan": Cao_Yuan, "Jia Lan": Jia_Lan}
+heavenly_gods = {"Nyx": Nyx, "Zeus": Zeus, "Poseidon": Poseidon, "Hades": Hades, "Athena": Athena, "Sun Wukong": Sun_Wukong, "Michael": Michael, "Bragi": Bragi, "Merlin": Merlin, "Gilgamesh": Gilgamesh}
+masked_squad = {"Wang Mian": Wang_Mian, "Tian Ping": Tian_Ping, "Qiang Wei": Qiang_Wei, "Xuan Wo": Xuan_Wo, "Yue Gui": Yue_Gui}
+night_watchers = {"Zhao Kongcheng": Zhao_Kongcheng, "Hong Ying": Hong_Ying, "Chen Muye": Chen_Muye, "Leng Xuan": Leng_Xuan}
+divine_agents = {"Si Xiaonan": Si_Xiaonan, "Shen Nu": Shen_Nu, "Yiyu": Yiyu, "Liu Lang": Liu_Lang, "Shao Pingge": Shao_Pingge, "Lu Baoyu": Lu_Baoyu, "Xia Simeng": Xia_Simeng, "Li Zhenzhen": Li_Zhenzhen, "Chen Han": Chen_Han}
+
+# CHARACTER REQUEST
+character = input("Enter Character Name: ")
+
+if character in divine_agents:
+    print(character, "-", divine_agents[character][0])
+elif character in heavenly_gods:
+    print(character, "-", heavenly_gods[character][0])
+elif character in masked_squad:
+    print(character,"-", masked_squad[character][0])
+elif character in night_fall:
+    print(character, "-", night_fall[character][0])
+elif character in night_watchers:
+    print(character, "-", night_watchers[character][0])
+else:
+    print("Character not found.")
+
+# DICTIONARY OF SQUADS DESCRIPTIONS
+squads = {"Night Fall": night_fall,
+"Heavenly Gods": heavenly_gods,
+"Masked Squad": masked_squad,
+"Night Watchers": night_watchers,
+"Divine Agents": divine_agents}
+
+# SQUAD NAME REQUEST 
+squad_name = input("Enter Squad Name: ")
+
+if squad_name in squads:
+    print("\n" + squad_name.upper())
+    for name, description in squads[squad_name].items():
+        print(name, "-", description[0])
+
+else:
+    print('Squad not found.')
