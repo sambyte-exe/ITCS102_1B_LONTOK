@@ -1,49 +1,54 @@
-#breakdown fix money value to PH denominations
-# 1000, 500, 200, 100, 50, 20, 10, 5, 1
+# PH Denominations: 1000, 500, 200, 100, 50, 20, 10, 5, 1
 
 money = 19863
 
-money = eval(input("Enter Money to Deposit ------->"))
+money = int(input("Enter Money to Deposit -------> "))
 print(type(money))
-print("========== WELCOME TO THE BANK ==========")
+print("=" * 45)
+print("          WELCOME TO THE BANK")
+print("=" * 45)
 print("Money to Deposit ------>", money, "PHP")
 
-#computation here
+# computation here
 
-wankey = money // 1000
-wankey1 = money % 1000
+bills_1000 = money // 1000
+remainder_1000 = money % 1000
 
-paybhan = wankey1 // 500
-paybhan1 = wankey1 % 500
+bills_500 = remainder_1000 // 500
+remainder_500 = remainder_1000 % 500
 
-twoh = paybhan1 // 200
-twoh1 = paybhan1 % 200
+bills_200 = remainder_500 // 200
+remainder_200 = remainder_500 % 200
 
-wanwan = twoh1 // 100
-wanwan1 = twoh1 % 100
+bills_100 = remainder_200 // 100
+remainder_100 = remainder_200 % 100
 
-pepti = wanwan1 // 50
-peptipepti = wanwan1 % 50
+bills_50 = remainder_100 // 50
+remainder_50 = remainder_100 % 50
 
-bente = peptipepti // 20
-bentebente = peptipepti % 20
+bills_20 = remainder_50 // 20
+remainder_20 = remainder_50 % 20
 
-ten = bentebente // 10
-tenten = bentebente % 10
+coins_10 = remainder_20 // 10
+remainder_10 = remainder_20 % 10
 
-payb = tenten // 5
-payb1 = tenten % 5
+coins_5 = remainder_10 // 5
+remainder_5 = remainder_10 % 5
 
-wan = payb1 // 1
-wan2 = payb1 % 1
+coins_1 = remainder_5 // 1
+remainder_1 = remainder_5 % 1
 
 print()
-print("\t1000 - ", wankey)
-print("\t500 -", paybhan)
-print("\t200 -", twoh)
-print("\t100 -", wanwan)
-print("\t50 -", pepti)
-print("\t20 -", bente)
-print("\t10 -", ten)
-print("\t5 -", payb)
-print("\t1 -", wan)
+print("=" * 45)
+print("          DENOMINATION BREAKDOWN")
+print("=" * 45)
+print("\tPHP 1000 -", bills_1000)
+print("\tPHP 500  -", bills_500)
+print("\tPHP 200  -", bills_200)
+print("\tPHP 100  -", bills_100)
+print("\tPHP 50   -", bills_50)
+print("\tPHP 20   -", bills_20)
+print("\tPHP 10   -", coins_10)
+print("\tPHP 5    -", coins_5)
+print("\tPHP 1    -", coins_1)
+print("=" * 45)
