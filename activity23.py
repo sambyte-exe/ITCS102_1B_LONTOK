@@ -1,6 +1,6 @@
 def my_factorial(sagot):
   fact = 1
-  for x in range(sagot):
+  for x in range(sagot, 0, -1):
     fact *= x
   return fact
 
