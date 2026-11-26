@@ -213,4 +213,5 @@ while True:
     choice = input("Enter your choice: ")
 
 if choose == 1:
-    print(
+    print(SYNOPSIS)
+    
