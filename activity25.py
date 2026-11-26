@@ -177,31 +177,29 @@ black_bulls = {
     'Nacht Faust': Nacht_Faust, 'Secre Swallowtail': Secre_Swallowtail, 'Henry Legolant': Henry_Legolant}
     
 golden_dawn = {
-    'William Vangeance', 'Yuno', 'Klaus Lunettes',
-    'Mimosa Vermillion', 'Langris Vaude', 'Alecdora Sandler',
-    'David Swallow', 'Letoile Becquerel'}
+    'William Vangeance': William_Vengeance, 'Yuno': Yuno, 'Klaus Lunettes': Klaus_Lunettes,
+    'Mimosa Vermillion': Mimosa_Vermillion, 'Langris Vaude': Langris_Vaude, 'Alecdora Sandler': Alecdora Sandler,
+    'David Swallow': David_Swallow, 'Letoile Becquerel': Letoile_Becquarel}
 
 crimson_lion = {
-    'Fuegoleon Vermillion', 'Leopold Vermillion',
-    'Mereoleona Vermillion', 'Randall Luftair', 
-    'Ben Benfunk', 'Puli Angel'}
+    'Fuegoleon Vermillion': Fuegoleon_Vermillion, 'Leopold Vermillion': Leopold_Vermillion,
+    'Mereoleona Vermillion': Mereoleona_Vermillion, 'Randall Luftair': Randall_Luftair, 
+    'Ben Benfunk': Ben_Benfunk, 'Puli Angel': Puli_Angel}
 
 blue_rose = {
-    'Charlotte Roselei', 'Sol Marron', 'Puli Angel',
-    'Mereoleona Vermillion', 'En Ringard',
-    'Fragil Tormenta', 'Catherine',
-    'Cesc'}
+    'Charlotte Roselei': Charlotte_Roselei, 'Sol Marron': Sol_Marron, 'Puli Angel': Puli_Angel,
+    'En Ringard': En_Ringard, 'Fragil Tormenta': Fragil_Tormenta, 
+    'Catherine': Catherine, 'Cesc': Cesc}
 
 silver_eagles = {
-    'Nozel Silva', 'Solid Silva', 'Nebra Silva',
-    'Acier Silva', 'Nils Ragus', 'Curtis Warren',
-    'Ladros', 'Svenkin Gatard'}
+    'Nozel Silva': Nozel_Silva, 'Solid Silva': Solid_Silva, 'Nebra Silva': Nebra_Silva,
+    'Acier Silva': Acier_Silva, 'Nils Ragus': Nils_Ragus, 'Curtis Warren': Curtis_Warren,
+    'Ladros': Ladros, 'Svenkin Gatard': Svenkin Gatard}
 
 green_mantises = {
-    'Jack the Ripper', 'Sekke Bronzazza',
-    'En Ringard', 'Ruben Chagar',
-    'Cesc', 'Lemiel Silvamillion Clover',
-    'Rhya', 'Kaiser Granvorka'}
+    'Jack the Ripper': Jack_the_Ripper, 'Sekke Bronzazza': Sekke_Bronzazza,
+    'Ruben Chagar': Ruben_Chagar, 'Lemiel Silvamillion Clover': Lemiel_Silvamillion_Clover,
+    'Rhya': Rhya, 'Kaiser Granvorka': Kaiser_Granvorka}
 
 while True:
     print("Welcome to the Black Clover Database. How may I assist you?")
@@ -214,3 +212,5 @@ while True:
     print("6 | Exit")
     choice = input("Enter your choice: ")
 
+if choose == 1:
+    print(
