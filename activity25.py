@@ -215,3 +215,4 @@ while True:
 if choose == 1:
     print(SYNOPSIS)
     
+    
