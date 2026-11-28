@@ -259,10 +259,11 @@ while True:
             print("\n" + squad_name.upper())
             for name, description in squads[squad_name].items():
                 print(name, "-", description[0])
-                
+                print()
         
     elif choice == 3:
         character = input("Enter Character Name: ")
+        print()
         if character in black_bulls:
             print(character, "-", black_bulls[character][0])
         elif character in golden_dawn:
